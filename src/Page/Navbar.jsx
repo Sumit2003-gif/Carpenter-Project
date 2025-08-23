@@ -6,7 +6,7 @@ import Formed from "../Componet/Form";
 
 const menu = [
   { label: "Home", path: "/" },
-  { label: "Pages", path: "/pages" },
+  { label: "About", path: "/pages" },
   // { label: "Projects", path: "/projects" },
   { label: "Blog", path: "/blog" },
   { label: "Contact", path: "/contact" },
@@ -29,7 +29,7 @@ const Navbar = () => {
   };
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
-  const openModal = () => setModalOpen(true);
+  const openModal  = () => setModalOpen(true);
   const closeModal = () => setModalOpen(false);
 
   const mobileMenuVariants = {
@@ -111,7 +111,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Toggle */}
           <div className="md:hidden flex items-center gap-4">
-            <FiSearch className="text-black text-xl" />
+            {/* <FiSearch className="text-black text-xl" /> */}
             <button onClick={toggleMenu} aria-label="Toggle Menu">
               {menuOpen ? <FiX className="text-2xl" /> : <FiMenu className="text-2xl" />}
             </button>
