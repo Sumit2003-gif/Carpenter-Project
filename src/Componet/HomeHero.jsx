@@ -55,6 +55,10 @@ const HomeHero = () => {
             Our Services
           </button>
           </Link>
+          <a href="https://youtu.be/rErkJv6ZYv0?si=JpF8nyNwE9wysDFb"
+          target="_blank" 
+          rel="noopener"
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-white hover:bg-red-700">
           <button className="border cursor-pointer border-gray-300 rounded-full w-12 h-12 flex items-center justify-center hover:bg-gray-100 transition">
             <svg
               className="w-7 h-7  text-[#C1833F]"
@@ -71,6 +75,7 @@ const HomeHero = () => {
               />
             </svg>
           </button>
+          </a>
         </div>
       </motion.div>
 
